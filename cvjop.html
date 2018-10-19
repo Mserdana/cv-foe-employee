@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<title> CV from</title>
+		</head>
+		<body>
+			<h4> CV </h4>
+				Name:<input type="text" name="text" placeholder="your name"><br>
+				Family: <input type="text" name="text" placeholder="your family name "><br>
+				Birth Date:<input type="month" name="date"><br>
+				Birth Time: <input type="time" name="time"><br>
+				Birth Time and Date://////
+			<fieldset>
+				<legend> Contact:</legend>
+				Email: <input type="email" name="email" placeholder="name@server.com"><br>
+				Phone:<input type="number" name="number" placeholder="(ddd)ddd-ddd"><br>
+				Personal Page:<input type="page" name="pageTitle" placeholder="http://server.com">
+		</fieldset>
+			<fieldset>
+				<legend  id="pic"> Picture --> go to 
+					<a href="#personal"> Personal info</a>
+					<a href="#edu"> education info</a>
+					<a href="#favteam">favorite team </a>
+					<a href="#favwebsite">favorite website</a>
+				</legend>
+				your picture:
+				 <label for="avatar">Select a file:</label>
+				 <input type="file"
+				id="avatar" name="avatar"
+				 accept="image/png, image/jpeg" />
+			</fieldset>
+
+			</fieldset>
+			<fieldset>
+				<legend id=" personal"> Personal Information: -->
+					<a href="#pic"> picture</a>
+					<a href="#edu"> education info</a>
+					<a href="#favteam">favorite team </a>
+					<a href="#favwebsite">favorite website</a>
+				</legend>
+				First Name:<input type="text" name="text" placeholder="your first name"><br>
+				Last Name:<input type="text" name="text" placeholder="your last name"><br>
+				Family: <input type="text" name="text" placeholder="your family name "><br>
+				Nationality :<input type="text" name="text" placeholder="your Nationality "><br>
+				Birth Date:<input type="month" name="date"><br>
+				Birth Time: <input type="time" name="time"><br>
+			</fieldset>
+
+			<fieldset>
+			<legend id="edu">Eduction Information: -->
+				    <a href="#pic"> picture</a>
+					<a href="#personal"> Personal info</a>
+					<a href="#favteam">favorite team </a>
+					<a href="#favwebsite">favorite website</a>
+			</legend>
+			heigh school:<input type="text" name="text" placeholder="your heigh school name"><br>
+			School graduation avarage:<input type="number" name="text" placeholder="avarage"><br>
+      		University Name:<input type="text" name="text" placeholder="University Name"><br>	
+      		Specialization:<input type="text" name="text" placeholder="Specialization"><br>
+			University ID:<input type="text" name="text" placeholder="Specialization"><br>
+			
+			<fieldset>
+				<legend id="favteam">my favorite team -->
+					<a href="#pic"> picture</a>
+					<a href="#personal"> Personal info</a>
+					<a href="#favwebsite">favorite website</a>
+				</legend>
+				favotite team: <input type="text" name="team" placeholder="enter yout favorite team">	
+			</fieldset>
+
+			<fieldset>
+				<legend id="favwebsite">my favorite website -->
+					<a href="#pic"> picture</a>
+					<a href="#personal"> Personal info</a>
+				   <a href="#favteam">favorite team </a>
+				 </legend>
+				favotite website: <input type="text" name="team" placeholder="enter yout favorite website">	
+			</fieldset>
+			</fieldset>
+
+			
+			
+			<button type="submit" value="Submit">Submit</button>
+			<button type="reset" value="Reset">Reset</button>
+		</body>
+</html>
